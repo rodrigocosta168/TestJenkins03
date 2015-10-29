@@ -106,7 +106,7 @@ robolectric {
     maxHeapSize = '2048m'
 
     // Configure the test JVM arguments - Does not apply to Java 8
-    jvmArgs '-XX:MaxPermSize=512m', '-XX:-UseSplitVerifier'
+   // jvmArgs '-XX:MaxPermSize=512m', '-XX:-UseSplitVerifier'
 
     // Specify max number of processes (default is 1)
     maxParallelForks = 4
